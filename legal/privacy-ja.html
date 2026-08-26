@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - Drink & Dream</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a1a;
+            --secondary-color: #666666;
+            --accent-color: #007AFF;
+            --border-color: #e5e5e5;
+            --card-bg: #f5f5f7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #ffffff;
+                --secondary-color: #a0a0a0;
+                --accent-color: #0A84FF;
+                --border-color: #333333;
+                --card-bg: #2a2a2a;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
+
+        .intro {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            font-weight: 600;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .card h3 {
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            color: var(--secondary-color);
+            font-size: 0.9em;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
+
+        .language-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        .language-switch a {
+            padding: 8px 16px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-switch">
+        <a href="privacy.html">English</a>
+    </div>
+
+    <header>
+        <h1>プライバシーポリシー</h1>
+        <p class="last-updated">最終更新日: 2026年3月</p>
+    </header>
+
+    <main>
+        <p class="intro">
+            Drink & Dream（以下「本アプリ」）は、お客様のプライバシーを保護することをお約束します。本プライバシーポリシーでは、情報の収集、使用、保護について説明します。
+        </p>
+
+        <section>
+            <h2>収集する情報</h2>
+            <p>本アプリは、お客様が任意で提供する以下の情報を収集します：</p>
+            <ul>
+                <li>飲酒ログ（種類、量、時刻、任意の理由/メモ）</li>
+                <li>睡眠品質ログ（入眠困難、中途覚醒など）</li>
+                <li>朝の体調ログ（起床困難、眠気、気分など）</li>
+                <li>夢日記（任意の個人的なメモ）</li>
+                <li>アプリ設定（国、サブスクリプション状態）</li>
+            </ul>
+
+            <p class="highlight">以下の情報は収集しません：</p>
+            <ul>
+                <li>氏名やメールアドレス（匿名で利用可能）</li>
+                <li>位置情報</li>
+                <li>写真や連絡先</li>
+                <li>HealthKitからの健康データ</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>データの保存方法</h2>
+            <p class="highlight">すべての個人データは、お客様のデバイス内にのみ保存されます。</p>
+            <ul>
+                <li>データはiPhone上のSwiftDataを使用して保存されます</li>
+                <li>個人データが外部サーバーへ送信されることはありません</li>
+                <li>アプリ安定性向上のため、匿名のクラッシュレポートが送信される場合があります（サードパーティサービス参照）</li>
+                <li>現在のバージョンではクラウド同期はありません</li>
+                <li>いつでもCSVまたはJSON形式でデータをエクスポートできます（Pro機能）</li>
+                <li>アプリを削除すると、すべてのデータが完全に削除されます</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>サードパーティサービス</h2>
+            <p>本アプリは以下のサードパーティサービスを使用しています：</p>
+
+            <div class="card">
+                <h3>Apple App Store</h3>
+                <p>アプリ内課金およびサブスクリプション</p>
+            </div>
+
+            <div class="card">
+                <h3>Sentry（Functional Software, Inc.）</h3>
+                <p>アプリ安定性向上のための匿名クラッシュレポート送信。個人データや健康記録は含まれず、デバッグビルドでは無効です。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>お子様のプライバシー</h2>
+            <p>本アプリは17歳未満のお子様を対象としていません。お子様から個人情報を意図的に収集することはありません。</p>
+        </section>
+
+        <section>
+            <h2>本ポリシーの変更</h2>
+            <p>本プライバシーポリシーは随時更新される場合があります。変更は上記の「最終更新日」に反映されます。変更後も本アプリを継続して使用することで、更新されたポリシーに同意したものとみなされます。</p>
+        </section>
+
+        <section>
+            <h2>お問い合わせ</h2>
+            <p>本プライバシーポリシーについてご質問がある場合は、以下からお問い合わせください：</p>
+            <p><a href="https://github.com/sibukixxx/yoakemae-site/issues" target="_blank" rel="noopener">GitHub Issues</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Drink & Dream. All rights reserved.</p>
+    </footer>
+</body>
+</html>
